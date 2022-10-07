@@ -1,0 +1,111 @@
+@import '_root.css';
+@import '_typography.css';
+@import '_prism.css';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body, html {
+	margin: 0;
+	min-height: 100vh;
+	color: var(--text);
+	background-color: var(--background);
+	-webkit-overflow-scrolling: touch;
+}
+
+html[theme='dark'] {
+	--text: var(--dark-text);
+	--text-secondary: var(--dark-text-secondary);
+	--background: var(--dark-background);
+	--border: var(--dark-border);
+	--code: var(--dark-code);
+}
+
+html[theme='light'] {
+	--text: var(--light-text);
+	--text-secondary: var(--light-text-secondary);
+	--background: var(--light-background);
+	--border: var(--light-border);
+	--code: var(--light-code);
+}
+
+body.open {
+	overflow-y: hidden;
+}
+
+hr {
+	border: 1px solid var(--border);
+}
+
+button,
+a.button {
+	border: 1px solid transparent;
+	border-radius: var(--radius);
+	color: var(--color);
+	background-color: inherit;
+	text-decoration: none;
+	padding: 0.5rem;
+	min-height: 2rem;
+	align-items: center;
+	text-align: center;
+	display: block;
+}
+
+button:hover:not(.primary),
+a.button:hover:not(.primary) {
+	background-color: var(--border);
+}
+
+a.outline {
+	border: 2px solid var(--border);
+}
+
+a {
+	color: var(--primary);
+}
+
+.primary {
+	font-weight: 500;
+	background-color: var(--accent);
+}
+
+.primary:hover {
+	background-color: #00a6db;
+}
+
+nav a.button,
+header button,
+header a.button {
+	height: 100%;
+	display: inline-flex;
+	vertical-align: middle;
+}
+
+a.button.primary {
+	font-weight: 500;
+	background-color: var(--primary);
+}
+
+blockquote {
+	margin: 0.5rem 0;
+	padding-left: 2rem;
+	border-left: 0.25rem solid var(--text);
+}
+
+@media screen and (min-width: 1200px) {
+	.menu {
+		display: none;
+	}
+	#intro a {
+		display: initial;
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	body {
+		scroll-behavior: smooth;
+	}
+}
