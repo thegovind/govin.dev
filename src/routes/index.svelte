@@ -30,7 +30,7 @@
 		<div id="intro">
 			<div id="details">
 				<h1>Govind Kamtamneni</h1>
-				<p><Icon name="briefcase" /> Principal Specialist</p>
+				<p><Icon name="briefcase" /> Microsoft</p>
 				<p><Icon name="map-pin" /> Seattle, WA</p>
 			</div>
 			<div class="hero-buttons">
