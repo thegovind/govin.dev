@@ -8,10 +8,9 @@
 	</div>
 	<h1>Hi, I'm Govind!</h1>
 	<p>
-		I’m passionate about the abundance that technologies at the frontier
-		can deliver when rapidly adopted and experimented with.
-		I strive to be an ultra-learner, synthesizing signals, to solve idiosyncratic
-		customer problems, while increasing the utilization of the best productivity
+		I’m passionate about the abundance that technologies at the frontier can deliver when rapidly
+		adopted and experimented with. I strive to be an ultra-learner, synthesizing signals, to solve
+		idiosyncratic customer problems, while increasing the utilization of the best productivity
 		enhancing primitives and composed solutions that Microsoft, our partners, and OSS have to offer.
 	</p>
 </section>

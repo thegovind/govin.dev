@@ -16,7 +16,6 @@
 	import Icon from '$lib/components/Icon.svelte';
 	import Link from '$lib/components/Link.svelte';
 	import Articles from '$lib/components/Articles.svelte';
-	import Cursor from '$lib/components/Cursor.svelte';
 	export let posts;
 </script>
 
@@ -30,7 +29,7 @@
 		<img id="memoji" src="/images/memoji.png" alt="Govind's Memoji" />
 		<div id="intro">
 			<div id="details">
-				<h1>Govind Kamtamneni <Cursor /></h1>
+				<h1>Govind Kamtamneni</h1>
 				<p><Icon name="briefcase" /> Principal Specialist</p>
 				<p><Icon name="map-pin" /> Seattle, WA</p>
 			</div>
@@ -90,7 +89,7 @@
 	.hero-buttons {
 		padding: 1rem 0;
 	}
-	:global(.hero-buttons a.button){
+	:global(.hero-buttons a.button) {
 		margin: 0.5rem 0.25rem;
 		padding: 0.5rem 1rem;
 	}
