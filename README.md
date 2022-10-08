@@ -1,3 +1,3 @@
-# govin.dev
+# Readme
 
-Govind K blog built with SvelteKit
+[govin.dev](https://govin.dev) personal site and blog built with SvelteKit

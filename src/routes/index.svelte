@@ -37,11 +37,8 @@
 				<Link class="button primary" href="https://www.linkedin.com/in/thegovind" icon="linkedin" target="_blank">
 					Connect
 				</Link>
-				<Link class="button outline" href="https://github.com/thegovind" icon="github" target="_blank">
-					Code
-				</Link>
 				<Link class="button outline" href="https://twitter.com/t2govind" icon="twitter" target="_blank">
-					Comment
+					Follow
 				</Link>
 			</div>
 		</div>
