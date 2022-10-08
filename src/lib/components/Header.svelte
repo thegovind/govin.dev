@@ -1,4 +1,4 @@
-<script>
++<script>
 	import Sidebar from './Sidebar.svelte';
 	import Button from './Button.svelte';
 	import Link from './Link.svelte';

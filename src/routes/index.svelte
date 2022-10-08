@@ -34,11 +34,14 @@
 				<p><Icon name="map-pin" /> Seattle, WA</p>
 			</div>
 			<div class="hero-buttons">
-				<Link class="button primary" href="https://github.com/thegovind" icon="github">
-					Follow on GitHub
+				<Link class="button primary" href="https://www.linkedin.com/in/thegovind" icon="linkedin" target="_blank">
+					Connect
 				</Link>
-				<Link class="button outline" href="https://github.com/thegovind/govin.dev" icon="code">
-					View Source
+				<Link class="button outline" href="https://github.com/thegovind" icon="github" target="_blank">
+					Code
+				</Link>
+				<Link class="button outline" href="https://twitter.com/t2govind" icon="twitter" target="_blank">
+					Comment
 				</Link>
 			</div>
 		</div>
